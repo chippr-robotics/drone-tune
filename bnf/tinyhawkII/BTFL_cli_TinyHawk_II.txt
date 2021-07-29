@@ -318,19 +318,24 @@ set f_pitch = 90
 set p_roll = 95
 set i_roll = 25
 set d_roll = 70
+set f_roll = 90
 set p_yaw = 95
 set i_yaw = 0
 set d_yaw = 68
+set f_yaw = 90
 set angle_level_strength = 110
 set horizon_level_strength = 30
 set horizon_transition = 80
+set level_limit = 70
+set horizon_tilt_effect = 80
+set horizon_tilt_expert_mode = ON
 set abs_control_gain = 20
 set use_integrated_yaw = ON
-set d_min_roll = 40
-set d_min_pitch = 40
+set d_min_roll = 0
+set d_min_pitch = 0
 set d_min_yaw = 39
 set d_min_boost_gain = 20
-set d_min_advance = 21
+set d_min_advance = 0
 
 # restore original profile selection
 profile 2
