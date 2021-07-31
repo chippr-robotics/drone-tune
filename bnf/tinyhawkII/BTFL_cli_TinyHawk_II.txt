@@ -210,6 +210,24 @@ dma pin A09 0
 dma pin A10 0
 # pin A10: DMA2 Stream 6 Channel 0
 
+# mixer
+mixer QUADX
+
+mmix reset
+
+# servo
+servo 0 1000 2000 1500 100 -1
+servo 1 1000 2000 1500 100 -1
+servo 2 1000 2000 1500 100 -1
+servo 3 1000 2000 1500 100 -1
+servo 4 1000 2000 1500 100 -1
+servo 5 1000 2000 1500 100 -1
+servo 6 1000 2000 1500 100 -1
+servo 7 1000 2000 1500 100 -1
+
+# servo mixer
+smix reset
+
 # feature
 feature -RX_PARALLEL_PWM
 feature OSD
