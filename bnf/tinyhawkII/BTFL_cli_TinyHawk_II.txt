@@ -167,8 +167,33 @@ timer A10 AF1
 # pin A10: TIM1 CH3 (AF1)
 
 # dma
+dma SPI_TX 1 NONE
+dma SPI_TX 2 NONE
+dma SPI_TX 3 NONE
+dma SPI_RX 1 NONE
+dma SPI_RX 2 NONE
+dma SPI_RX 3 NONE
 dma ADC 1 0
 # ADC 1: DMA2 Stream 0 Channel 0
+dma ADC 2 NONE
+dma ADC 3 NONE
+dma UART_TX 1 NONE
+dma UART_TX 2 NONE
+dma UART_TX 3 NONE
+dma UART_TX 4 NONE
+dma UART_TX 5 NONE
+dma UART_TX 6 NONE
+dma UART_TX 7 NONE
+dma UART_TX 8 NONE
+dma UART_RX 1 NONE
+dma UART_RX 2 NONE
+dma UART_RX 3 NONE
+dma UART_RX 4 NONE
+dma UART_RX 5 NONE
+dma UART_RX 6 NONE
+dma UART_RX 7 NONE
+dma UART_RX 8 NONE
+dma pin A03 NONE
 dma pin B10 0
 # pin B10: DMA1 Stream 1 Channel 3
 dma pin B06 0
@@ -179,6 +204,7 @@ dma pin B08 0
 # pin B08: DMA1 Stream 7 Channel 2
 dma pin A00 0
 # pin A00: DMA1 Stream 2 Channel 6
+dma pin A02 NONE
 dma pin A09 0
 # pin A09: DMA2 Stream 6 Channel 0
 dma pin A10 0
